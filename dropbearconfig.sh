@@ -4,7 +4,7 @@ sudo tee /etc/default/dropbear >/dev/null <<EOF
 NO_START=0
 
 # the TCP port that Dropbear listens on
-DROPBEAR_PORT=53
+DROPBEAR_PORT=69
 
 # any additional arguments for Dropbear
 DROPBEAR_EXTRA_ARGS="-p 109"
